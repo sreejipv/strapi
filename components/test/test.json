@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_test_tests",
+  "info": {
+    "name": "Test",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    }
+  }
+}

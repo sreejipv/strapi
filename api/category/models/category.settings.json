@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "airline": {
+      "model": "airlines"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

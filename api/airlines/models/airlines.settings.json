@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airlines",
+  "info": {
+    "name": "airlines"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "Test": {
+      "type": "component",
+      "repeatable": true,
+      "component": "test.test"
+    }
+  }
+}
